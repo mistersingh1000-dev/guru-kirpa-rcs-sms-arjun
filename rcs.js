@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const button=document.getElementById('updatePreview');if(button)button.addEventListener('click',()=>{document.getElementById('messagePreview').textContent=document.getElementById('rcsMessage').value;document.getElementById('ctaPreview').textContent=document.getElementById('rcsCta').value;});});
